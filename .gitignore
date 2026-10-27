@@ -1,0 +1,18 @@
+# Secrets - never commit
+.env
+*.pem
+*.key
+
+# Runtime state, logs, and trade data (contain account balances and positions)
+*.log
+trade_logs/
+bot_state.json
+category_pnl.json
+watchlist.json
+
+# Python / macOS
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
